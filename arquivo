@@ -1,0 +1,31 @@
+Algoritmo "media"
+
+Var
+// FEIIO NO VISUAL ALG
+// Seção de Declarações das variáveis 
+     n1: Real
+     n2: Real
+     media: Real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+            escreval(" ... EXERCÍCIO Calculo da média ... ")
+            
+            escreval("Entre com a nota 1: ")
+            leia(n1)
+
+            escreval("Entre com a nota 2: ")
+            leia(n2)
+            
+            // calcula a média:
+            media <- (n1+n2)/2
+            
+            se (media >= 5) entao
+                                escreval("Você passou de ano! com a média ", media)
+            senao
+                   escreval("Infelizmente não passou de ano com a média ", media)
+
+            fimse
+            
+
+Fimalgoritmo
